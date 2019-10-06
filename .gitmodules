@@ -1,0 +1,3 @@
+[submodule "LESysDialog"]
+	path = LESysDialog
+	url = https://github.com/karnkaul/LESysDialog.git
