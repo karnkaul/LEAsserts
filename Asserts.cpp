@@ -12,7 +12,7 @@
 #include <unistd.h>
 #endif
 #include "Asserts.h"
-#include "LESysDialog/SysDialog.h"
+#include "SysDialog/SysDialog.h"
 
 namespace LE
 {

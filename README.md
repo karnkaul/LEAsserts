@@ -13,3 +13,10 @@ Features:
 Usage:
   - Define `ASSERTS 1` to enable
   - Include this file and call `Assert(predicate, message)`
+
+Dependencies:
+  - `LESysDialog`
+
+Compile Units:
+  - LESysDialog/SysDialog.cpp
+  - Asserts.cpp

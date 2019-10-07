@@ -1,3 +1,3 @@
-[submodule "LESysDialog"]
-	path = LESysDialog
+[submodule "SysDialog"]
+	path = SysDialog
 	url = https://github.com/karnkaul/LESysDialog.git
