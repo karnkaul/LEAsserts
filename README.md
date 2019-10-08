@@ -17,6 +17,9 @@ Usage:
 Dependencies:
   - `LESysDialog`
 
+CMake:
+  - Set `SOURCES` to existing source file list and include `Asserts.cmake` before creating the target
+
 Compile Units:
-  - LESysDialog/SysDialog.cpp
+  - SysDialog/SysDialog.cpp
   - Asserts.cpp
