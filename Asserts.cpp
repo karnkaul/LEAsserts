@@ -66,9 +66,9 @@ bool IsDebuggerAttached()
 
 void LEDebugBreak()
 {
-#if defined(CXX_MS_CRT)
+#if _MSC_VER
 	__debugbreak();
-#elif defined(CXX_LIBC) || defined(CXX_LIBSTDC)
+#elif __linux__ || __MINGW32__
 #ifdef SIGTRAP
 	raise(SIGTRAP);
 #else
