@@ -8,6 +8,7 @@
 #elif __linux__
 #include <cstring>
 #include <fcntl.h>
+#include <signal.h>
 #include <sys/stat.h>
 #include <unistd.h>
 #endif
